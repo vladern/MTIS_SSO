@@ -2,8 +2,6 @@
 
 
 ```bash
-npm install -g @angular/cli
-cd 01-Login
 npm install
 ```
 
