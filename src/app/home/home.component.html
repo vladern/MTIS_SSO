@@ -1,0 +1,6 @@
+<h4 *ngIf="auth.isAuthenticated()">
+  You are logged in!
+</h4>
+<h4 *ngIf="!auth.isAuthenticated()">
+  No estas logeado <a (click)="auth.login()">Logeate</a> para continuar.
+</h4>
